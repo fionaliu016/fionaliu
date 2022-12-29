@@ -51,7 +51,7 @@ header{
 }
 
 .resume-nav:hover {
-  color: black;
+  color: #C77492;
 }
 
 .logo img{
@@ -105,7 +105,7 @@ header{
 }
 
 .navbar .resume-nav::after{
-  background: black;
+  background: #C77492;
 }
 
 .navbar a:hover::after{
@@ -134,6 +134,10 @@ header{
 
 #play-nav ul li .play-nav {
   color: #BD295F;
+}
+
+#everyday-nav ul li .everyday-nav {
+  color: #ABCDA2;
 }
 
 footer {
@@ -418,6 +422,74 @@ footer {
   border-radius: 10px;
   max-width: 150px;
 }
+
+.ethics-img {
+  flex: 50%;
+  text-align: center;
+  margin-left: 20px;
+}
+.ethics-text {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.uiexp4 {
+  width: 57%;
+  min-width: 250px;
+  height: auto;
+  margin: auto;
+}
+#ethics {
+  padding-top: 20px;
+}
+.ethics-button {
+  background-color: #D1E0A4;
+  color: white;
+  padding: 5px 3px;
+  border: none;
+  border-radius: 10px;
+  max-width: 150px;
+}
+.ethics-button:hover {
+  background-color: #59CAA1;
+}
+
+.sleep-img {
+  flex: 50%;
+  text-align: center;
+  margin-left: 20px;
+}
+.sleep-text {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.uiexp5 {
+  width: 67%;
+  min-width: 250px;
+  height: auto;
+  margin: auto;
+}
+#sleep {
+  padding-top: 20px;
+}
+.sleep-button {
+  background-color: #CABBED;
+  color: white;
+  padding: 5px 3px;
+  border: none;
+  border-radius: 10px;
+  max-width: 150px;
+}
+
+.sleep-button:hover {
+  background-color: #9175CF;
+}
+
 .dormit-text {
   width: 50%;
   position: relative;
@@ -435,7 +507,7 @@ footer {
 
 }
 .dormit-button {
-  background-color: #D9D1D9;
+  background-color: #D4CBF7;
   color: white;
   padding: 5px 3px;
   border: none;
@@ -471,12 +543,16 @@ footer {
 
 }
 .aisc-button {
-  background-color: #D9D1D9;
+  background-color: #F9ACD4;
   color: white;
   padding: 5px 3px;
   border: none;
   border-radius: 10px;
   max-width: 150px;
+}
+
+.aisc-button:hover {
+  background-color: #F470BA;
 }
 
 #clickable:hover {
@@ -510,12 +586,16 @@ footer {
 
 }
 .sacf-button {
-  background-color: #D9D1D9;
+  background-color: #B1CEFF;
   color: white;
   padding: 5px 3px;
   border: none;
   border-radius: 10px;
   max-width: 150px;
+}
+
+.sacf-button:hover {
+  background-color: #5996FF;
 }
 
 #highlight {
@@ -688,19 +768,19 @@ span.active{
 
 #surreal-text1 p{
   font-family: 'Poppins', sans-serif;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 300;
   color: #878787;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   overflow: hidden;
-  margin-left: 40%;
+  margin-left: 25%;
   padding-top: 30px;
 }
 
 #surreal-text1 b{
   font-family: 'Poppins', sans-serif;
-  font-size: 65px;
+  font-size:80px;
   font-weight: 500;
   color: #878787;
   writing-mode: vertical-rl;
@@ -715,14 +795,18 @@ span.active{
 }
 #surreal-text2 p{
   font-family: 'Poppins', sans-serif;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: 500;
   color: #878787;
-  padding-left: 45%;
-  padding-top: 100px;
+  padding-left: 36%;
+  padding-top: 50px;
   letter-spacing: 10px;
   overflow: visible;
   margin-bottom: 80px;
+<<<<<<< HEAD
+  z-index: 2 !important;
+=======
+>>>>>>> 097ab46a634048fa7539bbcbb3d21d64e6eb1bc0
   position: relative;
   z-index: 3;
 }
@@ -749,7 +833,7 @@ span.active{
   /* max-width: 800px; */
   max-width: 100% !important;
   max-height: 100% !important;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 .procreate-column {
   flex: 25%;
@@ -790,7 +874,7 @@ span.active{
 
 #multi-text {
   text-align: right;
-  padding-right: 10px;
+  padding-right: 50px;
 }
 
 #multi-text p{
@@ -1098,4 +1182,13 @@ span.active{
 }
 .play-sections>div.shown {
   display:block;
+}
+
+.everyday-img {
+  text-align: center;
+}
+
+.everyday-img img {
+  padding-top: 150px;
+  max-width: 70%;
 }

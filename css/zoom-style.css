@@ -38,6 +38,10 @@ header{
   color: #BD295F;
 }
 
+.resume-nav:hover {
+  color: #C77492;
+}
+
 .logo img{
   max-width: 100%;
   width:40px;
@@ -89,11 +93,11 @@ header{
 }
 
 .navbar .resume-nav::after{
-  background: black;
+  background: #C77492;
 }
 
 .resume-nav:hover {
-  color: black;
+  color: #C77492;
 }
 .navbar a::after{
   content: '';
@@ -134,6 +138,7 @@ header{
   color: #BD295F;
 }
 footer {
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   line-height: 45px;
@@ -143,12 +148,13 @@ footer {
   font-size: 22px;
   font-weight: 500;
   color: #C77492;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
 .footer-name {
   font-size: 17px;
   font-weight: 300;
   color: #D6D0C3;
+  font-family: "Poppins", sans-serif;
 }
 
 
