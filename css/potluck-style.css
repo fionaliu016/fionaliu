@@ -382,10 +382,6 @@ footer {
         /* ----- end of container stylings ----- */
 
         /* provides padding to main heading */
-.main-heading {
-    padding: 2rem 0 2rem 0;
-}
-
 .content {
     position: relative;
 }
