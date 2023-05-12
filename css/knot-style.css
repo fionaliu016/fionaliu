@@ -200,20 +200,26 @@ footer {
 }
 
 .fiona-sticker {
-  min-width: 60px;
-  width: 60px;
-  height: 90px;
+  min-width: 50px;
+  width: 50px;
+  height: 75px;
 }
 
 .info-column .contribution {
   padding-top: 10px;
   font-size: 12px;
+  font-weight: 300;
 }
 
 .header {
   display: flex;
 }
 
+.header .hsub {
+  font-size: 10px;
+  margin-top: 30px;
+  color: #505050;
+}
 .case-study h1 {
   padding-bottom: 10px;
   font-family: Taviraj;
@@ -616,7 +622,7 @@ footer {
     70% { left: -200%; }
     75% { left: -200%; }
     85% { left: -200%; }
-    90% { left: -100%; }
+    90% { left: -200%; }
     95% { left: 0; }
 }
 /* ----- end of slideshow stylings ----- */
