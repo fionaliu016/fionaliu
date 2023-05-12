@@ -382,6 +382,10 @@ footer {
         /* ----- end of container stylings ----- */
 
         /* provides padding to main heading */
+.main-heading {
+    padding: 2rem 0 2rem 0;
+}
+
 .content {
     position: relative;
 }
@@ -444,7 +448,7 @@ footer {
        40% { left: -100%; }
        45% { left: -100%; }
        55% { left: -200%; }
-       60% { left: -100%; }
+       60% { left: -200%; }
        70% { left: -200%; }
        75% { left: -300%; }
        85% { left: -300%; }
@@ -465,7 +469,7 @@ footer {
     /* stylings for positioning the buttons at
        the bottom of the carousel */
     position: absolute;
-    bottom: -6%;
+    bottom: 1%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 70;
