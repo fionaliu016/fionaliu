@@ -317,29 +317,20 @@ footer {
   display: block;
   padding-bottom: 40px;
 }
-#work {
-  fill: #D9AF6E;
+#work-piece:hover {
+  fill: #FFC34F;
 }
-#work:hover {
-  fill: #EBA937;
-}
-#play {
-  fill: #D1828A;
-}
-#play:hover {
-  fill: #BD295F;
+#play-piece:hover {
+  fill: #FF0082;
 }
 #about {
   fill: #B6BDCE;
 }
-#about:hover {
-  fill: #8CA9E1;
+#about-piece:hover {
+  fill: #6922FF;
 }
-#everyday {
-  fill: #BDC39C;
-}
-#everyday:hover {
-  fill: #AEBC67;
+#everyday-piece:hover {
+  fill: #B7F400;
 }
 
 .work-scroll {
