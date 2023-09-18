@@ -1,3 +1,25 @@
+//autoslideshow homepage
+var homeIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  let x = document.querySelectorAll(".homeimg");
+  console.log(x.length)
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  homeIndex++;
+  if (homeIndex > x.length) {homeIndex = 1}
+  x[homeIndex-1].style.display = "block";
+  setTimeout(carousel, 800); // Change image every 2 seconds
+}
+
+
+
+
+
+
 const INVESTIGATION_INDEX = 0
 const OLI_INDEX = 9
 const SURREAL_INDEX = 14
@@ -20,7 +42,14 @@ function scrollFunction() {
   } else {
     document.getElementById("home-nav").style.top = "-500px";
   }
+
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    document.getElementById("work-scroll").style.display = "none";
+  } else {
+    document.getElementById("work-scroll").style.display = "block";
+  }
 }
+
 function uiToVis() {
     document.querySelector('#exp-section>.active').classList.remove('active');
     document.querySelector('#exp-section>#vis').classList.add('active');
@@ -149,3 +178,6 @@ function overlay() {
     }
   })
 }
+
+
+
