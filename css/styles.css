@@ -43,7 +43,7 @@
   left: 0;
   right: 0;        
   text-align: center;
-  top: 49%; /* Adjust this value to move the positioned div up and down */
+  top: 50%; /* Adjust this value to move the positioned div up and down */
   font-family: 'Poppins', sans-serif;
   color: #505050;
   width: 60%;
@@ -56,7 +56,7 @@
   left: 0;
   right: 0;        
   text-align: center;
-  top: 55%; /* Adjust this value to move the positioned div up and down */
+  top: 56.3%; /* Adjust this value to move the positioned div up and down */
   font-family: 'Poppins', sans-serif;
   color: #505050;
   width: 60%;
@@ -77,7 +77,7 @@
 }
 
 .intro {
-  font-size: calc(1rem + 1.5vw);
+  font-size: calc(.8rem + 1.1vw);
   font-family: 'Poppins', sans-serif;
   color: #505050;
 }
@@ -563,8 +563,19 @@ footer {
   max-width: 150px;
 }
 
-#ethics {
-  padding-top: 20px;
+
+.cab-button {
+  background-color: #8B97D4;
+  color: white;
+  padding: 5px 3px;
+  border: none;
+  border-radius: 10px;
+  max-width: 150px;
+  width: 40%;
+}
+
+.cab-button:hover {
+  background-color: #2541C7;
 }
 
 .ethics-button {
@@ -574,6 +585,7 @@ footer {
   border: none;
   border-radius: 10px;
   max-width: 150px;
+  width: 40%;
 }
 
 .ethics-button:hover {
@@ -586,6 +598,7 @@ footer {
 
 .sleep-button {
   background-color: #CABBED;
+  width: 40%;
   color: white;
   padding: 5px 3px;
   border: none;
@@ -595,6 +608,62 @@ footer {
 
 .sleep-button:hover {
   background-color: #9175CF;
+}
+#more {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 10%;
+  font-size: 25px;
+  color: #9E9C96;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+#more-ui {
+  width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+  display:flex;
+  padding-bottom: 90px;
+}
+
+.mini-exp {
+  max-width: 33%;
+  text-align: center;
+}
+
+.mini-img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.mini-text {
+  text-align: left;
+  padding-left: 10%;
+}
+
+.mini-header {
+  font-family: 'Poppins', sans-serif;
+  color: #505050;
+  font-weight: 500;
+  margin-bottom: 4px;
+  font-size: 22px;
+}
+
+.mini-subheader {
+  font-family: 'Poppins', sans-serif;
+  color: #878787;
+  font-weight: 200;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+.mini-desc {
+  font-family: 'Poppins', sans-serif;
+  color: #878787;
+  font-weight: 300;
+  margin-bottom: 6px;
+  font-size: 16px;
 }
 
 .visexp1 {

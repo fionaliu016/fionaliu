@@ -1,19 +1,3 @@
-//autoslideshow homepage
-var homeIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  let x = document.querySelectorAll(".homeimg");
-  console.log(x.length)
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  homeIndex++;
-  if (homeIndex > x.length) {homeIndex = 1}
-  x[homeIndex-1].style.display = "block";
-  setTimeout(carousel, 800); // Change image every 2 seconds
-}
 
 
 
@@ -181,3 +165,19 @@ function overlay() {
 
 
 
+//autoslideshow homepage
+var homeIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  let x = document.querySelectorAll(".homeimg");
+  console.log(x.length)
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  homeIndex++;
+  if (homeIndex > x.length) {homeIndex = 1}
+  x[homeIndex-1].style.display = "block";
+  setTimeout(carousel, 800);
+}
