@@ -616,6 +616,7 @@ footer {
   color: #9E9C96;
   font-weight: 400;
   margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 #more-ui {
@@ -647,7 +648,7 @@ footer {
   color: #505050;
   font-weight: 500;
   margin-bottom: 4px;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .mini-subheader {
@@ -655,7 +656,7 @@ footer {
   color: #878787;
   font-weight: 200;
   margin-bottom: 4px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .mini-desc {
@@ -663,7 +664,7 @@ footer {
   color: #878787;
   font-weight: 300;
   margin-bottom: 6px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .visexp1 {
